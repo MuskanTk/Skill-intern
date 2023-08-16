@@ -1,0 +1,235 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title><!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+    
+            body {
+                background: rgb(58, 21, 143);
+                color: white;
+                font-family: 'Poppins', sans-serif;
+            }
+    
+            nav {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                height: 90px;
+                background-color: rgb(38, 38, 80);
+            }
+    
+            nav ul {
+                display: flex;
+                justify-content: center;
+            }
+    
+            nav ul li {
+                list-style: none;
+                margin: 0 23px;
+            }
+    
+            nav ul li a {
+                text-decoration: none;
+                color: rgb(169, 27, 70);
+            }
+    
+            nav ul li a:hover {
+                color: aqua;
+                font-size: 1.04rem;
+            }
+    
+            main hr {
+                border: 0;
+                background: plum;
+                height: 1.2px;
+                margin: 40px 84px;
+            }
+    
+            .left {
+                font-size: 1.1rem;
+            }
+    
+            .firstsection {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                margin: 60px 0;
+            }
+    
+            .firstsection>div {
+                width: 45%;
+            }
+    
+            .leftsection {
+                font-size: 3rem;
+            }
+    
+            .rightsection img {
+                width: 100%;
+                height: 520%;
+    
+            }
+    
+            .purple {
+                color: rgb(139, 69, 203);
+            }
+    
+            .text-gray {
+                color: greenyellow;
+                text-shadow: 4cm;
+                font-size: 1rem;
+            }
+    
+            #element {
+                color: rgb(139, 69, 203);
+            }
+    
+            .secondsection {
+                max-width: 80vw;
+                margin: auto;
+                font-size: 1.6rem;
+            }
+    
+            .secondsection h1 {
+                font-size: 1.9rem;
+            }
+    
+            .secondsection .box {
+                background: white;
+                width: 75vw;
+                height: 2px;
+                margin: 56px 0;
+                display: flex;
+            }
+    
+            .secondsection .vertical {
+                height: 93px;
+                width: 1px;
+                background-color: white;
+                margin: 0 120px;
+            }
+    
+            .image-top {
+                width: 35px;
+                position: relative;
+                top: -32px;
+                left: -9px;
+            }
+    
+            .vetical-title {
+                position: relative;
+                top: 75px;
+                width: 150px;
+                font-size: 14px;
+            }
+    
+            .vertical-desc {
+                position: relative;
+                top: 100px;
+                color: gray;
+                width: 180px;
+                font-size: 10px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <nav>
+                <div class="left">Muskan's Portfolio</div>
+                <div class="right">
+                    <ul>
+                        <li><a href=>About Me</a></li>
+                        <li><a href=" https://www.linkedin.com/in/muskan-kumari-1b8487282">Linkedin</a></li>
+                        <li><a href="https://instagram.com/muskan_u1?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D ">Instagram</a></li>
+                        <li><a href="https://github.com/MuskanTk">GitHub</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header> 
+        <main>
+            <section class="firstsection">
+                <div class="leftsection">
+                    Hi, My Name is <span class="purple">Muskan</span>
+                    <div>and I am a passionate</div>
+                    <span id="element"></span>
+
+                </div>
+                <div class="rightsection">
+                    <img src="c:\Users\Muskan Thakur\Downloads\WhatsApp Image 2023-08-11 at 4.28.27 PM.jpeg ">
+                        <alt="">
+                </div>
+            </section>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">In which organisation I have worked till now</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top"
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBQTEhcTEhQYGBcXFxoXGhcbGxgaGBcUHBsaHB0aGBsiLC8nISEqHhsbJzYmNi4yNDMzHiI7PjsyPS41MzABCwsLEA4QHRISHDIiJCowNDAwMDIwMDIyMDIyMj0yMjAyMjIyMjQyMDIyMjQyMzIyMjIyMjIyMjIyMjIyMjIyPf/AABEIAMgAyAMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABgEDBAUHAgj/xABKEAABAwIDBAUIBAsFCQAAAAABAAIDBBEFEiEGMUFRBxMiYXEUMkJSgZGhsTRyssEjM1Nic5Kis8LR8BUkJXThFyY1Q1SCg5Oj/8QAGQEBAAMBAQAAAAAAAAAAAAAAAAIDBAEF/8QAJxEAAgIBBAAGAgMAAAAAAAAAAAECEQMSITFBBBNRYXGhgZEiMkL/2gAMAwEAAhEDEQA/AOzIiIAiIgCIiAIiIAiIgKLwSBv46Dv4o54AuTYDeToFAOkvFmuoQ+mlu6OpYM7Hea8NcdHDj4LsYtshKaijoSoud7D9ITajLT1ZDJdA2TcyQ8j6rvge7cuihdlFxdM7CSkrRVERRJBERAEREAREQBERAEREAREQBERAEREAREQHm6xa+vZBG6SR1mt3/wAhzKu1EzWMc9xs1oLieTQLlch2m2gfVycWxtPYZ/E7vPwV/h8Dyy9ijPmWOPuNodopKtxuS2MeawHTxdzKwsV/4O7/ADrf3Tlk0ezdVMwPijD2HcQ+P3HtaHuXvavCpaXCQyZuUurGuAuDZvVPGpGl9F6OV44xUINc8GDGpyk5ST4Odro+w/SG6LLT1ri6PQNl3uZ3P9ZvfvHfw5wihkxqapk4TcHaPqSKVr2hzSHNcAQQbgg7iCrq4n0X7Qzsqo6PNmikLuy656twa512crkbty7WvNyY3CVM9CE1NWekRFAmEREAREQBERAEREAREQBERAEREAREQGtx/wCiT/oZPsOXEl2faPE2U0BdIC5rjkyjjmvf4XXKMNoOtqmQg5g6QNuOLAdXfqglen4F6Yyb4PN8YtU4pcnVNlKLqaOJp3luc/Wf2tfC9vYot0yn+4x/5hv7uRS+oxumjeY3zMa5trtJAtpcfCyhnTDI11DCWkEGdpBBuCOrk1CxQt5E2uTXKlCk+DjqKXU+yUMTGS4hVsia9jXtiZ25nMcLjT0fGxC3GEUeHVsVTSUcDmStjzxyyEF73NPDg3XKNODjyW15kuDKsbI70dH/ABSm+s/929fQq+eej8EYpTA6EPcLcuw9fQyyeK/sjT4fhlURFnNAREQBERAEREAREQBERAEREAREQBERAa/F6BtRC+J+5w0Pqu3hw8DZc32Nh6rEQyXR7A9tj61raey66soDt3hhbNDUxnK5z2xudus/0HH3H3BafD5Nnjb2Zlzw4muUb3E9kqaokEjw4G5LspAzkm/aNr+4hRHpXoo4KGGOJuVvX3tcnXI7mug4XO+SJrpGFj9zmng4aEjmDvB5FQnpehdJDTRsF3PnsBzOUqEJPUk3sicox0uSXJB+kQWqKccqKAfByrsFhtR5QyrYRHDC675nnLH1e57QeJIJHdot1NDTV2NQRFwljZCGPyk5XPjY82DhvF7blrJ6mbE87pHtpqGmtma3zGNvZoDBq554fctGp1p9iit9Rsdm6RlVjr6ijv1DHmVziLC7mkEAfnPJI7r8l2NQPoxr6Z7J4qWIxsicztON5JA4O7Unf2ToNAp6suZtuvQ04lSv1KoiKstCIiAIiIAiIgCIiAIiIAiIgCIiAIiIDyo1t59AkPJzLdxztW+qqpkTS+Rwa0by42Cg2O427EGmlo4nPBLS6Q6AWN/YNN59ytwxepS6RTmktLXbJJs9jXlDSyRpZNHYPjOh+sO4/wBd9vafZpleI2ySPY1ji4hlg54Itludwt3K7i2D9ZklicGVEY7L+Dh6rxxafgsuilqHWE0UbRxLZC7X6paPmuSq9UdjsbrTLc5DsTTtjxx0bBZkb6lrRvs1oeB8FqaefJhEw/K1cbfY1jn/ADAW42RP+OTHk+qP21FJJ/7lHGOM8rz7GQhvzctiVy/Rley/ZM+hqpy1c0Xrw5vEse37nldlXLeiLZ0tDq6QEZgWRj82/ad7xYeBXUllztObo1YU1FWVREVJaEREAREQBERAEREAREQBERAUVEKi2MbYQxHq4R10m4NZq0HkXcT3C/sUowlJ0kQlNRVskskoaC5xAA1JJAAHeVFMS2yBd1VFGZpDoCAcg8OLvgO9YcWB1leQ+tkMce8RN0Pu4eJuVK8NwqGmZlhYG8z6Tj+c7erahDnd/RVc58bL7IzTbKzVLxLiEpdxETToO4kaD2e9S6ko2RNDI2tY0cGiy101ZWDzaRh/8w+WVYE1finoUcf/ALGn+IJJyny0l6WqC0w4Tv4JQihE2IYx/wBMwfVyn+Mre7N4samL8IMssZyyMIsQ7nbhf+ahPE4q7T+GThlUnVNfJyvZI/4xUHkKo/aUc2dws1czY3OyxsDpJHnQRxCxe75Dxstxs7iUNPic8tS4tjPlDSQCSS5xFhbirGObQU5hNLh9OYY3EF73G8kobuD9+l9bXWz+V0l6GV1W79Sd4D0hU73PpmRtiDQW0xcbRvAFmNefQJIHPfz34eyO09ZU4r1VU7IGskBhaMrWuFt/EnxJXKFNOjSoc/FIi9xJ6t7bnflDDYE8bAWXJ4Yxi2vQlDJKTSO55he3FelAsXmcNoKRrXEB1O4OANg5o651jzFwD7Fr/wDaiIqmSKop+wyRzA9jruytcQLtdv3X3hY1jb4NTyJcnTFVafAtoKetYXU8ma1szSC1zb7rtPz3FbhQaadMkmnuiqIiHQiIgCIiAIiICiIsDGMSZTQulfuaNBxc7gB7V1Jt0jjaStmh2yxR/Yo6fWWY2NvRYefK/wArrZYHs9DSNGRoL7WLzq4njbkO4LS7F0D5Xvr59XyEhnc3cSPsjuB5qaK7LLQtEX8+7KccdT1yXx8FVVEVBeEREAVkQtDi8NAcQAXWFyBewJ9qvIgPnjbHZuopJ3vkbeOSRzmSN1abkmx5O7io4u0R7bQVkUtPJGRIA8OYW52Fjc13tvoTpo0+kW+KhlTW0NPIad0IJYcry2OORrHDeC9/bkIO8tdGOQXo48kqqSMM4Ru0yFKV9GLrYpB3iQf/ADesPafCGQlkkVurk0sCS0Oyse0sJ1yOY9rhfUdoG+W609FVvhkZLG7K9jg5pHAhWP8AnB12Vr+ElZ2XFh/vFR91M/5Trke0H0uo/Ty/vHLqGIxjF6OOupDkrKfg02cHt1Md/wBpvj3lc62gmbUnyprQyRxy1EYFss35QD1X/BwPMXz+H2f0XZd19mJgeMS0czZ4TZw3j0Xt4tcORXf9msfiroBNEddzmHzmP9U/ceK+cFt9msfloZxLEbjc9hPZkZyP3HgrM+FSVrkhiyaXT4PpJFhYXXsqII52ebI0OHMX4HvB0WavO4N6KoiIAiIgCIiA8qCbURPqsQipM1ow0PP7RcfGwsPFTtQfG8RjpcVbLLfL5PbQXJcXOHyV3h71OuadFGeqV8WrJpBE1jQ1oAa0BoA3ADQBXFG8J2n8qkywQPLAe1I4ta1o9l7nu+SkiqlFp0+S2Mk1sa/FsRFOGOd5rpGscfVDgbH9ay2F1HtuI81BJzGV3ue2/wALqzsVixmh6qT8bFZrr73N9F33ezvVnlXj1Lp7kPMqelkpREVRaFRVVCgPnLCq9sNY9zzlY8yMc618lycr7ccrw025ArdV+yZnldNHIWxyuMhAjllALiS7q3xtMb233Eubp51lDak/hH/Wd8yvAcbWBNjvHAr1HB8pnmqXTR2HDdnaWvgdC5/4otY3I9rnRlsbGNzWuHGzbnhd7gD2bqBbUbGVNCS57esivpKwaf8AePQPw71o6CvlgeJIXuje3c5psfA8x3FdR2a6TI5QIa9oYSMvWAXjdw7bfR8d3gqmp43a3RanGap7Mg+xO0jqCpDzcxPs2RvNvrDvbv8AeOKlfSHso6RwraFpkbMAZGMBde9iJGgbwePfrxWw2l6OYahvX4e5rHOGYMveJ/Hskeb8vBa3Z/G8SwyPqJqGWWNrjlNn9kcQHtDmkXufaouSb1R59CSi0tL49Tm80LmHK9rmnk4Fp9xXhdlZ0kUMoyVUEjOYexr2j7/2V68n2fq/NMDSeTnQG/cOz8lLz2v7RZDyk+GU6H8T6ykfTuOsL7j6j7kftB3vXQ1E9mdkKejmM9NLIWvYWFhc17CLggggX0t8VLFjyNOTaNWNNRSZVERQLAiIgCIiAotdVYRBJIJJImveGhoLhmAaCTuOm8lbFF1Nrg40nyW442tFmgADgBYK4qouHTUbSAGjnzGw6p+p55Tb42UJildAykxCMXGQQzAcQ3s3PeQ33hqke1UMtUW0kOgJD5X+ixgPZB5kkE27hw1Wn8mFBL5LUXfSVAFnO9CTQG5G7W3wPBa8VKNct9exjy2530u/cmVHi8E1urlY48g4ZvdvWco4di6I6iIjwe/+ay6XAWxfi5p2gcOsLm/quBCokof5b/JfFz7S/BulQq3EwgWLi7vNr/ABXCqy0+WJj23eJ+a8qr958SqL2FweU+QiIunDe7ObV1VC78E+8d+1G7Vh8B6J7wuhU3S1AfxlPK3nlLXfPKoDsZs27EKkM1ETO1I8cG8Gj84n7zwWqxjDn008kEnnRvLb8xwd7RY+1Z5QxzlT5L4ylFX0diHSHhcwtLmA5SRFw+GZeHnZ+o3+TC/jCf4VxiGFz3BjGlzjua0Fzj4AKY4J0a1k9nSgQMPF+r7dzB95CrlijH/VE45JS/zZOaPYrDnuz0dRIy2v4Covp49o/FTgNsLfPVaDZTZWHD2ObGXPc8gve61zbcABuA5d6kSySdvmzTBUuKKoiKJMIiIAiIgCIiAIiIC2ABfv1+5a/HcLbVQOidoTq13qvG4/1wJWyVV1Np2jjimqZCNlcf6q9JWODZIzla5x0I9Unu4HiLKah11rMSwKnqfxsYLvWGjv1gtRHgNVS/Q6jMz8lLq32OG72AK2Wie62f0Ux1Q2atfZK1R50PgtJBj2Xs1cboHbsx7URPdINB7bLc5g5t2kEEaHgqqp7lqkpLY+Wnb0V6tpXxSPjeLPY4scPzgbFe6KglnfkhjfI7kxpcR423L1rVWedW5jK9SUzpXsjjaXPe4Na0by4qdYN0W1UlnVL2wt9Udt/uHZHv8AYuhbO7F0lE4SRMc6QAjrHm7tdDYaAe5UZPERXG7LYYJPnYydktn2UNM2Jti49qR/rSHf7BuCwMf2GpqypbUSl4s0NcxpAD7E2Ljv3G2nIclLUWHW7u9zXojVUa3C8Gp6VuWniZGOJA7R+s46n2lbJEUW2+SSVcFUREOhERAEREAREQBERAEREAREQBERAeHNB0Kx6ajZHfI0NDtSBo2/MN3A+G9ZSJbOUiMYjsVR1FSaqaMueQ0FuYhhI0zEDUm1hvtoFvqSjjhbkijaxo9FrQ0e4LIRdcm1TZxRS3o9IiLhIIiIAiIgCIiAIiIAiIgCIiAIiIDyrc0gY1znGzWguJ5Aak+5XVg419Gl/Rv+yUStpEZOk2evL4+q67N2LZs1ju8N68vxGJrY3F1hIQGGx7RduURa6q/s/dF1XVnXt9Zlv7rrLr/o9AeAfD9kLT5CTq+2v0Z/Pb66TJNPWMY9jHus55IaLHUi1/mrZxOIS9QX/hPVseWbfa25arHPpdH9Z/yatNjIy1ksw3xOgcfqkAEfEJjwRlVvlN/m6OTzuN0u/qrJd/akXXdRnHWerY8s2+1tywK3aujhkdHLOGvYbOblebG1+A5KP4ac1bDOf+bJOQfzGts371gmoqI8QxB9PAybL1Zc1xsQAw+YOPHTuUn4eKdX1f5ujkc8mr9/qifYdiUVQzrIZGvbe1xwPIjgdVrKjbGhZIY3VDcwNjYOIB73AW+Kjez0ZGG1lVG9pknbI/JGCGxODXdkA63F/lv3rbbIUdMcLjBawsfG4yEgauuc2Y93wsFU8cY3d80WLI3VVxZIKvE4Yoeve8COzTnF3Ah1g0jLe97ha+i2sopniOOoaXONgCHNueQzAa9ygrXuOz0ma+USgMJ9TrWffmWRj7KpsVPJWRwCCOSN5MF+s3WHncPBTWFdve2iLzPr0s6FieKQ0zM88jWNvYE3uTyAGpPgsfCdoKWqJFPK15GpbZzXW55XAG3eo7i4a/GqVs1jGIHOYD5plu/geNgPcE2pY1mJUDogBK6Rwdbe6Lsg5u6xd8VDy1SXbV+xPzHbfV0TOOZriQDex10KvLCpG2c7v133vqd2u7/VZiqaSexbF2tz0iIuEgiIgCIiAIiIAiIgKKzUQh7HMduc0tNuRFiqIhxmOMLj6jyfXJly79beK8z4TG+FsDwSxoaG69oZRYG/NEXdbs5oiWKHAY4niTM97gLNL3Zso3aK7NhET3SON7ytDXa6WAsLcjoiLvmSvkLFGqoQ4LE0xFoP4EODNfWFjm5qtHhEcU8s7c2ebLnubjsiwsOCIuOcnyFCK6LeGYFFTySPizASnM5t+xm11a3hvK1U2wtIS7KZWMebuiZIWxOPe3/VETzJJ8h441wbStwGCWl8kLcsQDQGt0sGkEWPiFrY9h6UFpeZZAwghskjnNuN2iInmSXZx44vo2WNYFDVta2Zpu03a9pyvYebT/XBY+EbMQU8hlBkkkIt1kjs7g3kDw+aImuX9bJaI2btsYBNhvV1EXDoREQBERAEREB//9k="
+                alt="">
+            <div class="vertical-title">HUMROBO TECHNOLOGY</div>
+            <div class="vertical-desc">I have Created a Portfolio Website with the help of Web Developer using html and css.</div>
+        </div>
+        <div class="vertical">
+            <img class="image-top"
+                src="c:\Users\Muskan Thakur\Pictures\logo bharat iq.jpg"
+                alt="">
+            <div class="vertical-title">Bharat IQ </div>
+            <div class="vertical-desc">Worked as a Web Developer to make portfolio website,whether web app,tic-tac-toc game</div>
+        </div>
+        <div class="vertical">
+            <img class="image-top"
+                src="c:\Users\Muskan Thakur\Pictures\codsoft logo.png "
+                alt="">
+            <div class="vertical-title">Codsoft</div>
+            <div class="vertical-desc">Worked as a Python to work on To-do list,Calculater,password generator and C++ work on Number Gussing game,Simple calculator,student grading system</div>
+        </div>
+        <div class="vertical">
+            <img class="image-top"
+                src="c:\Users\Muskan Thakur\Pictures\skill intern logo.png "
+                alt="">
+            <div class="vertical-title">Skill intern</div>
+            <div class="vertical-desc">Worked as a Web Developer work on Amozon prime home page clone,portfolio website,weather forecast website</div>
+        </div>  
+        <div class="vertical">
+            <img class="image-top"
+                src="c:\Users\Muskan Thakur\Pictures\techno hacks logo.png"
+                alt="">
+            <div class="vertical-title">TechnoHacks EduTech</div>
+            <div class="vertical-desc">Worked as Web Developer work on Landing page,Personal portfolio,Calculator,create a registration form</div>
+        </div>
+
+
+    
+    
+    </section>
+        </main>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Python Developer', 'Java Programmer'],
+      typeSpeed: 50,
+    });
+  </script>
+  </body>
+    </html>
